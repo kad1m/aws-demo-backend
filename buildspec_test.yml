@@ -1,12 +1,5 @@
 version: 0.2
 
-env:
-  variables:
-    AWS_DEFAULT_REGION: "eu-north-1"
-    AWS_ACCOUNT_ID: "472400096032"
-    ECR_REPO_NAME: "aws-demo/backend"
-    ECR_IMAGE_TAG: "latest"
-
 phases:
   install:
     commands:
@@ -24,4 +17,4 @@ phases:
       - python manage.py test
   post_build:
     commands:
-      - echo "Build and test completed successfully!"
+      - echo "Test completed"
