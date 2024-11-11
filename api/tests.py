@@ -3,7 +3,7 @@ from django.test import TestCase, Client
 
 class TestingStageDemo(TestCase):
     def setUp(self):
-        self.a = 2
+        self.a = 1
         self.b = 2
 
     def test_sum(self):
