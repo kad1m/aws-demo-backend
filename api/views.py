@@ -13,4 +13,4 @@ def index(request):
 
 def apiresponse(request):
     text = os.getenv('MESSAGE_REACT')
-    return HttpResponse('Hello, World for React!')
+    return HttpResponse(text)
