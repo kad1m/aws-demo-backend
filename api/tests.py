@@ -15,5 +15,5 @@ class TestingStageDemo2(TestCase):
         self.c = Client()
 
     def test_request(self):
-        response = self.c.get("/api/")
+        response = self.c.get("/api2/")
         self.assertEqual(response.status_code, 200)
