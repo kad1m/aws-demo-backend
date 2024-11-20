@@ -4,8 +4,8 @@ env:
   parameter-store:
     OUR_VARIABLE: "OUR_VARIABLE"
     AWS_ACCOUNT_ID: "ACCOUNT_ID"
+    AWS_DEFAULT_REGION: "DEFAULT_REGION"
   variables:
-    AWS_DEFAULT_REGION: "eu-north-1"
     ECR_REPO_NAME: "aws-demo/backend"
     ECR_IMAGE_TAG: "latest"
 
