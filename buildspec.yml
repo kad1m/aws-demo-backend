@@ -3,9 +3,9 @@ version: 0.2
 env:
   parameter-store:
     OUR_VARIABLE: "OUR_VARIABLE"
+    AWS_ACCOUNT_ID: "ACCOUNT_ID"
   variables:
     AWS_DEFAULT_REGION: "eu-north-1"
-    AWS_ACCOUNT_ID: "472400096032"
     ECR_REPO_NAME: "aws-demo/backend"
     ECR_IMAGE_TAG: "latest"
 
