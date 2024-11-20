@@ -1,6 +1,8 @@
 version: 0.2
 
 env:
+  parameter-store:
+    OUR_VARIABLE: "OUR_VARIABLE"
   variables:
     AWS_DEFAULT_REGION: "eu-north-1"
     AWS_ACCOUNT_ID: "472400096032"
